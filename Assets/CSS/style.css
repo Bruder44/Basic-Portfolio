@@ -8,6 +8,8 @@ align-items: center;
 }
 ul {
 display: flex;
+padding: 0px;
+justify-content: space-between;
 }
 li {
 list-style: none;
@@ -17,19 +19,21 @@ margin: 0 10px;
 width: 960px;
 }
 h1 {
+font-family: 'Georgia', Times, Times New Roman, serif;
 margin-right: 150px;
 background: #4aaaa5;
 color: #ffffff;
 }
 h2 {
+font-family: 'Georgia, Times, Times New Roman, serif';
 color: #4aaaa5;
 }
 .content
 {
+background: #ffffff;
 width: 650px;
 }
 header {
-width: 960px;
 display: flex;
 align-items: center;
 width: 100%;
@@ -53,7 +57,29 @@ background: #ffffff;
 font-family: Arial, Helvetica, sans-serif;
 }
 .aside {
+margin-top: 20px;
 float: right;
 width: 270px;
-height: 400px;
+background: #ffffff;
+color: #4aaaa5;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;
+text-align: center;
+}
+.github {
+color: black;
+}
+.linkedin {
+color: blue;
+}
+.overflow {
+color: orange;
+}
+footer {
+background: #666666;
+width: 100%;
+text-align: center;
+}
+h3 {
+padding: 20px;
 }
