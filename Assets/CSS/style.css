@@ -27,6 +27,8 @@ color: #ffffff;
 h2 {
 font-family: 'Georgia, Times, Times New Roman, serif';
 color: #4aaaa5;
+border-bottom: 2px solid;
+border-bottom-color: #dddddd;
 }
 .content
 {
@@ -39,6 +41,8 @@ align-items: center;
 width: 100%;
 justify-content: space-between;
 background: #ffffff;
+border-bottom: 2px solid;
+border-bottom-color: #dddddd;
 }
 .ID {
 display: flex;
@@ -61,10 +65,16 @@ margin-top: 20px;
 float: right;
 width: 270px;
 background: #ffffff;
-color: #4aaaa5;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-weight: bolder;
 text-align: center;
+}
+.me
+{
+background: #ffffff;
+color: #4aaaa5;
+border-bottom: 2px solid; 
+border-color: #dddddd;
 }
 .github {
 color: black;
@@ -82,4 +92,18 @@ text-align: center;
 }
 h3 {
 padding: 20px;
+}
+.Name {
+padding: 0px;
+}
+.connect {
+background: #ffffff;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: black;
+padding: 0px;
+width: 960px;
+justify-content: space-between;
+}
+.textbox {
+width: 100px;
 }
